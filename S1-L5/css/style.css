@@ -9,7 +9,7 @@ body { display: block;
 h1, h2, h3, h4 {color:#25a2c3 ; 
     font-family: 'Montserrat',sans-serif, Times; font-weight: bold; 
     line-height: 1.5;}
-footer {background-color: #c8e7f0;}
+footer {background-color: #25a2c3; color: white;}
 footer h1 {color: white;}
 footer a {color: #c8e7f0;}
 a:active{color: goldenrod;}
@@ -34,9 +34,9 @@ padding: 1%;
 .round-pic {border-radius: 50%;}
 .white {color: white;}
 .italic {font-style: italic;}
-.card-img {border: 1.5px solid #dee1e3;
-    border-bottom: none;
-     box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-.card-p {
-        border: 1.5px solid black;
-     box-shadow: 0 2px 4px rgba(0,0,0,0.05);}
+.card {display: inline-block; align-content: center;
+    border: 1.5px solid #dee1e3;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+     margin-bottom: 2%;
+    }
+    .top-margin {display: inline-block; border-top: 1px solid white;}
