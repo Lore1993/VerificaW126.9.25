@@ -1,6 +1,7 @@
 /*/* CARATTERISTICHE BASE ELEMENTI CSS */
 body { display: block;
   margin: 0 auto; 
+
   text-align: center; 
   color: #393d41; 
   font-size: 1.2em;  
@@ -18,10 +19,12 @@ a:visited{color: purple;}
 #titletext {background-image: url(../Esercizio/images/banner.jpg); background-size: cover;
   background-position: center;
   min-height: 20vh;
+
 }
 .btn-partiamo {background-color: #f04c2f ; 
     font-family:'Montserrat',sans-serif, Times ; 
     font-weight: bold; color: white;
+    margin-top: 2%;
 border: none;
 border-radius: 12px;
 font-size: 20px;
