@@ -1,0 +1,42 @@
+/*/* CARATTERISTICHE BASE ELEMENTI CSS */
+body { display: block;
+  margin: 0 auto; 
+  text-align: center; 
+  color: #393d41; 
+  font-size: 1.2em;  
+    font-family: "Open Sans", sans-serif; 
+    line-height: 1.65;}
+h1, h2, h3, h4 {color:#25a2c3 ; 
+    font-family: 'Montserrat',sans-serif, Times; font-weight: bold; 
+    line-height: 1.5;}
+footer {background-color: #c8e7f0;}
+footer h1 {color: white;}
+footer a {color: #c8e7f0;}
+a:active{color: goldenrod;}
+a:visited{color: purple;}
+/*RICHIAMI E CARATTERISTICHE ID e CLASS */
+#titletext {background-image: url(../Esercizio/images/banner.jpg); background-size: cover;
+  background-position: center;
+  min-height: 20vh;
+}
+.btn-partiamo {background-color: #f04c2f ; 
+    font-family:'Montserrat',sans-serif, Times ; 
+    font-weight: bold; color: white;
+border: none;
+border-radius: 12px;
+font-size: 20px;
+padding: 1%;
+}
+.btn-partiamo:active {
+  background-color: darkorange;  
+  transform: scale(0.97);
+}
+.round-pic {border-radius: 50%;}
+.white {color: white;}
+.italic {font-style: italic;}
+.card-img {border: 1.5px solid #dee1e3;
+    border-bottom: none;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.card-p {
+        border: 1.5px solid black;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.05);}
